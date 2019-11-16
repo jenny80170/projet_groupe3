@@ -1,0 +1,207 @@
+@font-face {
+  font-family: "Noel";
+  src: url("../font/Noel.ttf") format("truetype");
+}
+body {
+  overflow-x: hidden;
+}
+p, h2 {
+  margin: 0;
+}
+/* ----------- HEADER ----------- */
+.contact_bar {
+  width: 100%;
+  padding: 0;
+  height: 45px;
+  background-color: #005c50;
+  color: white;
+  font-size: 2.1rem;
+  position: relative;
+}
+.contact_bar input {
+  height: 37px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 10px;
+  font-size: 1.2rem;
+}
+input:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f095";}
+  i {
+    margin-left: 5px;
+    color: white;
+  }
+  .banniere {
+    background-image: url('http://miam-images.m.i.pic.centerblog.net/o/e935fac8.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+  }
+  .banniere img {
+    height: 120%;
+  }
+  .banniere h1 {
+    text-align: center;
+    line-height: 200px;
+    color: white;
+  }
+  nav {
+    height: auto;
+    height: 80px;
+  }
+  nav a {
+    color: #d43f3f;
+  }
+  nav a:hover {
+    color: #d6bc2f;
+  }
+  nav ul {
+    text-align: center;
+    line-height: 80px;
+  }
+  nav ul li {
+    list-style: none;
+    font-family: "Noel";
+    font-size: 3.5rem;
+    display :inline-block;
+  }
+  nav button i, nav button{
+    border: none;
+    background-color: white;
+    color: #d43f3f;
+    font-size: 2.5rem;
+  }
+  /* ----------- FIN HEADER ----------- */
+  /* ----------- CARROUSEL ----------- */
+  #carrousel {
+    margin: auto;
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    display: inline-block;
+  }
+  #carrousel ul, #carrousel2 ul {
+    width: 200%;
+    height: 100%;
+    padding:0;
+    list-style: none;
+  }
+  #carrousel li, #carrousel2 li {
+    border: 1px solid black;
+    height: 100%;
+    width: 50%;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    float: left;
+  }
+  #carrousel li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* ----------- FIN CARROUSEL ----------- */
+  /* ----------- CARTE ARTICLES ----------- */
+  .cardBorder {
+    border: 2px solid #cc50508f;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 10px;
+  }
+  .card_article_img {
+    width: 100%;
+    min-height: 70%;
+  }
+  .card_article_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .card_article_text {
+    text-align: center;
+  }
+  .btnCustomAnthony {
+    background-color: #005c50;
+    color: white;
+  }
+  #titre_Categorie {
+    text-align: center;
+    font-family: "Noel";
+    font-size: 4rem;
+    color: #d43f3f;
+  }
+  /* ----------- FIN CARTE ARTICLES ----------- */
+  /* ----------- FIN FOOTER ----------- */
+  .articleTitle {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .modalPictures {
+    height: 30rem;
+    width: auto;
+  }
+  #visa, #masterCard, #americanExpress, #paypal{
+    height: 40px;
+    weight:40%;
+    margin-right: 10px;
+  }
+  footer {
+    background-color: #005c50;
+    color: white;
+    min-height: 70px;
+  }
+  /* Paramétres pour les boutons d'ouverture des modals*/
+  .modalLegalNotice {
+    text-align: center;
+    font-family: "Noel";
+    font-size: 1.5rem;
+    color: white;
+    background-color: #d43f3f;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: auto;
+  }
+  .modalGeneralCondition {
+    text-align: center;
+    font-family: "Noel";
+    font-size: 1.5rem;
+    color: white;
+    background-color: #d43f3f;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: auto;
+  }
+  .modalRefund {
+    text-align: center;
+    font-family: "Noel";
+    font-size: 1.5rem;
+    color: white;
+    background-color: #d43f3f;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-right: auto;
+  }
+  .modalDeclarationConfidentiality {
+    text-align: center;
+    font-family: "Noel";
+    font-size: 1.5rem;
+    color: white;
+    background-color: #d43f3f;
+    border-radius: 10px;
+    margin-top: 15px;
+  }
+  /* Paramétres pour la police utilisé dans les modal*/
+  .policeColorNoel {
+    font-family: "Noel";
+    color: GoldenRod;
+    font-size: 35px;
+  }
+  /* ----------- FOOTER ----------- */
